@@ -16,3 +16,15 @@ My coursework repository. Each practical is under PW<n>/Lab <X>/.
 
 **Conclusion:**
 - All three tests passed successfully. The NumPy implementation was much faster than the pure-Python loop, showing the advantage of vectorised operations.
+
+## PW1 - Lab B: Data, Plotting, and Automation
+
+**What the data showed:**
+- The observed atom count decreased over time.
+
+**Comparison with the analytical law:**
+- The observed data followed the same general decay trend as the analytical law.
+
+**Snakemake pipeline:**
+- Snakemake automatically generates figure.png from decay_observed.csv by running plot.py.
+- If the output is already up to date, Snakemake does not run the job again.
